@@ -163,7 +163,7 @@ Usage:
                            event start time and title text)
                            - <mins> default is 10
                            - default command:
-                              'notify-send -u critical -a gcalcli %%s'
+                              'notify-send -u critical -i view-calendar-upcoming-events -a gcalcli %%s'
 '''
 
 __API_CLIENT_ID__ = '232867676714.apps.googleusercontent.com'
@@ -531,7 +531,7 @@ class gcalcli:
     authHttp = None
     calService = None
     urlService = None
-    command = 'notify-send -u critical -a gcalcli %s'
+    command = 'notify-send -u critical -i view-calendar-upcoming-events -a gcalcli %s'
     dateParser = DateTimeParser()
 
     ACCESS_OWNER = 'owner'
