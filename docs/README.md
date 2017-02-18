@@ -186,7 +186,7 @@ gcalcli [options] command [command args or options]
                            event start time and title text)
                            - <mins> default is 10
                            - default command:
-                              'notify-send -u critical -a gcalcli %s'
+                              'notify-send -u critical -i view-calendar-upcoming-events -a gcalcli %s'
 
  Options:
 
